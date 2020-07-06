@@ -38,7 +38,7 @@ To deploy the app on the cloud, the following steps are followed-
 * `Step-3` Run ```cf login -a https://api.run.pivotal.io``` command. On execution, it will ask for Email Id and Password for Pivotal Web Services
 * `Step-4` After, logging in run ```cf push``` command and wait for some time. On successful execution, it will provide the URL for the app.
 
-The link for runnig app is - (https://image-scrapper-persistent-quoll-ur.cfapps.io/)
+The link for runnig app is - https://image-scrapper-persistent-quoll-ur.cfapps.io/
 
 | ![image scraper](https://user-images.githubusercontent.com/50728879/86624231-96b14180-bfe0-11ea-87b1-45ef62f58de1.gif) |
 |:--:|
