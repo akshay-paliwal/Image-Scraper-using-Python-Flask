@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Image Result</title>
+
+<style>
+body {
+	background-image: url("https://user-images.githubusercontent.com/50728879/86538634-c0049b80-bf14-11ea-98db-7f4f44d3c2d2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+     }
+img {
+    border: 3px solid white;
+    }     
+</style>
+</head>
+<body>
+      <h1 style="color:white;font-size:200%;text-align:center;font-family:purisa;">Images</h1>
+{% for user_image in lst %}
+            <img width="250" height="250" src= {{user_image}} border = "" alt="User Image">
+{% endfor %}
+</body>
+</html>
