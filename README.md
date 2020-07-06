@@ -34,7 +34,7 @@ Also, the project requires some HTML  knowledge to build the web pages for takin
 
 To deploy the app on the cloud, the following steps are followed-
 * `Step-1` Create an account on Pivotal Web Services, which can be done from [here](https://run.pivotal.io/)
-* `Step-2` open the **terminal(Linux/ Mac)** or **Cmd(Windows)** and navigate to the folder that contaions all the file.
+* `Step-2` open the **Terminal(Linux/ Mac)** or **Cmd(Windows)** and navigate to the folder that contaions all the file.
 * `Step-3` Run ```cf login -a https://api.run.pivotal.io``` command. On execution, it will ask for Email Id and Password for Pivotal Web Services
 * `Step-4` After, logging in run ```cf push``` command and wait for some time. On successful execution, it will provide the URL for the app.
 
