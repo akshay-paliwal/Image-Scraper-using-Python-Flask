@@ -1,0 +1,10 @@
+
+---
+applications:
+  - name: image-scrapper
+    memory:  300MB
+    disk_quota: 300MB
+    random-route: true
+    parameters:
+      memory: 300MB
+      buildpack: 'python_buildpack'
