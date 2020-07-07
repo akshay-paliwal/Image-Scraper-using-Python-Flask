@@ -2,7 +2,7 @@
 Image Scraper using Python Flask
 
 ## Introduction
-This is one of my Python projects from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this course, code was written to scrap or collect the required images from any website based on the keyword given by the user. The code needs to generate the web URL based on the given keyword, send a request to web URL to get raw HTML data, parse the obtained data(HTML) to get the source of the image, download the image to system, and display the result to the user.
+This is one of my Python projects from [Machine Learning and Deep Learning with Deployment](https://academy.ineuron.ai/machine-learning-masters.php) course, from [iNeuron.ai](https://academy.ineuron.ai/index.php). In this project, code was written to scrap or collect the required images from any website based on the keyword given by the user. The code needs to generate the web URL based on the given keyword, send a request to web URL to get raw HTML data, parse the obtained data(HTML) to get the source of the image, download the image to system, and display the result to the user.
 
 **Image scraping** is the process or act of scraping a website for its image content. It's web scraping for image content only. You can scrape images data from websites with a webs scraping tool. It is a form of copying, in which specific data is gathered and copied from the web, typically into a central local database, for later retrieval or analysis.
 
