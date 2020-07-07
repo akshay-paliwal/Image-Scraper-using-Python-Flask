@@ -24,11 +24,12 @@ Also, the project requires some HTML  knowledge to build the web pages for takin
 
 ## Application Architecture
 ![Blank Diagram](https://user-images.githubusercontent.com/50728879/86622696-f6f2b400-bfdd-11ea-84ca-e8bbb08ab72a.png)
+
 ## Code
 * `Step-1` Start the flask app which will run the **"main.html"** on the cloud and get the search string given by the user.
 * `Step-2` Search the internet for the desired images.
 * `Step-3` Download the obtained images from Step-2
-* `Step-4` Show the obtained images to the user through **"Show.html"**
+* `Step-4` Show the obtained images to the user through **"show.html"**
 
 ## Deployment
 
